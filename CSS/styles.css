@@ -1,0 +1,609 @@
+body{
+    margin: 0%;
+}
+
+/*section navigation*/
+
+.navigation{
+    background-color: #6db7d4;
+    margin: 0%;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+}
+
+.navigation .nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .nav .navigation-logo .nav-logo{
+    padding-top: 2%;
+    width: 30%;
+    height: auto;
+}
+
+.navigation .nav .navigation-text ul li{
+    display: inline;
+    padding: 23px;
+}
+
+.navigation .nav .navigation-text ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation .nav .navigation-text ul li a:hover{
+    color: palevioletred;
+}
+
+/*section iste*/
+
+#iste{
+    width: 100%;
+}
+
+.iste-wrapper{
+    padding-top: 5%;
+}
+
+.iste-sal{
+    text-align: center;
+    font-size: 650%;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+
+.iste-line{
+    text-align: center;
+    font-size: 250%;
+    margin-top: 0%;
+    margin-bottom: 16%;
+    padding-top: 1%;
+    
+}
+
+
+/*section about*/
+
+#about{
+    width: 100%;
+}
+
+.about-wrapper-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6%;
+}
+
+.about-logo{
+    padding-right: 5%;
+    max-width: 40%;
+}
+
+.about-logo-wrapper{
+    width: 150%;
+}
+
+.about-intro{
+    width: 60%;
+}
+
+.about-main-text{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 400%;
+}
+
+.about-text{
+    display: inline-block;
+    text-align: justify;
+    font-size: 200%;
+}
+
+/*section intro*/
+
+.intro-wrapper{
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.intro .intro-wrapper .intro-main .intro-main-text{
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 5%;
+}
+
+.intro .intro-wrapper-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12%;
+}
+
+.intro .intro-wrapper .intro-image{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.intro .intro-wrapper .intro-image-wrapper{
+    width: 105%;
+    border-radius: 50%;
+}
+
+.intro .intro-wrapper .intro-text{
+    padding: 2%;
+    margin-right: 2%;
+    width: 50%;
+}
+
+.intro .intro-wrapper .intro-text-wrapper{
+    display: inline-block;
+    text-align: justify;
+    font-size: 150%;
+}
+
+
+/*section event*/
+
+.event-main-text{
+    text-align: center;
+    font-size: 400%;
+    padding-top: 6%;
+}
+
+/*div quizo-code*/
+
+.quizo-code{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4%;
+}
+
+/*div quizo*/
+
+.quizo{
+    border: groove;
+    max-width: 45%;
+}
+
+.quizo-img{
+    max-width: 50%;
+}
+
+.quizo-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.Quiz-O-Fun{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.quizo-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.quizo-calendar{
+    text-align: center;
+}
+
+/*div code*/
+
+.code{
+    border: groove;
+    max-width: 45%;
+}
+
+.code-img{
+    max-width: 50%;
+}
+
+.code-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.code-hunt{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.code-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.code-calendar{
+    text-align: center;
+}
+
+
+/*div graphic-quiz*/
+
+.graphic-quiz{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0;
+}
+
+/*div graphic*/
+
+.graphic{
+    border: groove;
+    max-width: 45%;
+}
+
+.graphic-img{
+    max-width: 50%;
+}
+
+.graphic-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.Graphical-poster-making-compitition{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.graphic-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.graphic-calendar{
+    text-align: center;
+}
+
+/*div quiz*/
+
+.quiz{
+    border: groove;
+    max-width: 45%;
+}
+
+.quiz-img{
+    max-width: 50%;
+}
+
+.quiz-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.quiz-box{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.quiz-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.quiz-calendar{
+    text-align: center;
+}
+
+/*div vande-flag*/
+
+.vande-flag{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0;
+}
+
+/*div vande*/
+
+.vande{
+    border: groove;
+    max-width: 45%;
+}
+
+.vande-img{
+    max-width: 50%;
+}
+
+.vande-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.vande-bharatam{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.vande-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.vande-calendar{
+    text-align: center;
+}
+
+/*div flag*/
+
+.flag{
+    border: groove;
+    max-width: 45%;
+}
+
+.flag-img{
+    max-width: 50%;
+}
+
+.flag-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.tiranga-yatra{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.flag-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.flag-calendar{
+    text-align: center;
+}
+
+
+/*div poster-work*/
+
+.poster-work{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0 13% 0;
+}
+
+/*div poster*/
+
+.poster{
+    border: groove;
+    max-width: 45%;
+}
+
+.poster-img{
+    max-width: 50%;
+}
+
+.poster-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.poster-making{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.poster-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.poster-calendar{
+    text-align: center;
+}
+
+/*div work*/
+
+.work{
+    border: groove;
+    max-width: 45%;
+}
+
+.work-img{
+    max-width: 50%;
+}
+
+.work-img-wrapper{
+    width: 200%;
+    height: 700px;
+}
+
+.workshops{
+    font-size: 200%;
+    text-align: center;
+    margin: 1%;
+}
+
+.work-intro{
+    font-size: 100%;
+    text-align: justify;
+    margin: 2%;
+}
+
+.flag-calendar{
+    text-align: center;
+}
+
+
+/*section team*/
+
+.team-text{
+    text-align: center;
+    font-size: 400%;
+    padding-top: 6%;
+}
+
+/*sunny-modi*/
+
+.sunny-modi{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.sunny{
+    text-align: center;
+    width: 50%;
+}
+
+.sunny-img{
+    max-width: 75%;
+}
+
+.modi{
+    text-align: center;
+    width: 50%;
+}
+
+.modi-img{
+    max-width: 75%;
+}
+
+/*vrajesh-devanshi*/
+
+.vrajesh-devanshi{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.vrajesh{
+    text-align: center;
+    width: 50%;
+}
+
+.vrajesh-img{
+    max-width: 75%;
+}
+
+.devanshi{
+    text-align: center;
+    width: 50%;
+}
+
+.devanshi-img{
+    max-width: 75%;
+}
+
+
+/*vatsal-chauhan*/
+
+.vatsal-chauhan{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.vatsal{
+    text-align: center;
+    width: 50%;
+}
+
+.vatsal-img{
+    max-width: 75%;
+}
+
+.chauhan{
+    text-align: center;
+    width: 50%;
+}
+
+.chauhan-img{
+    max-width: 75%;
+}
+
+/*parshwa*/
+
+.parshwa{
+    padding: 35px 0 80px 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.parshwa-img{
+    max-width: 37.5%;
+}
+
+
+/*section-contact*/
+
+#contact{
+    background-color: #6db7d4;
+}
+
+.contact-wrapper{
+    display: flex;
+}
+
+.contact-logo{
+    width: 33%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-logo-wrapper{
+    width: 20%;
+}
+
+.insta{
+    width: 33%;
+    text-align: center;
+}
+
+.instagram{
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.istesal{
+    font-size: 20px;
+}
+
+.email{
+    width: 33%;
+    text-align: center;
+}
+
+.email-text-wrapper{
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.isteemail{
+    font-size: 20px;
+}
