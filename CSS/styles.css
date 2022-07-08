@@ -502,7 +502,7 @@ p{
     }
     
     .navigation-text{
-        width: 80%;
+        width: 65%;
     }
     .navigation .nav .navigation-logo .nav-logo{
         padding-top: 5px;
@@ -511,7 +511,7 @@ p{
     }
     
     .navigation .nav .navigation-text ul{
-        padding: 0;
+        padding: 2px;
         display: flex;
         list-style: none;
     }
@@ -693,7 +693,7 @@ p{
     
     .poster-img-wrapper{
         width: 100%;
-        height: auto;
+        height: 300px;
     }
     
     .poster-intro{
