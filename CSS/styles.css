@@ -386,10 +386,15 @@ p{
 
 .contact-wrapper{
     display: flex;
+    justify-content: space-between;
+}
+
+.contact-address{
+    width: 100%;
+    display: flex;
 }
 
 .contact-logo{
-    width: 25%;
     padding-top: 3px;
 }
 
@@ -398,17 +403,12 @@ p{
 }
 
 .address{
-    width: 25%;
     text-align: center;
-}
-
-.Address{
-    font-size: 35px;
 }
 
 .sal-address{
     font-size: 15px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .sal-address a{
@@ -421,60 +421,28 @@ p{
     color: palevioletred;
 }
 
-.wrapper{
-    width: 60%;
+.insta-email{
+    width: 200px;
     display: flex;
 }
 
 .insta{
-    width: 50%;
     text-align: center;
-    padding-left: 20px;
 }
 
-.instagram{
-    font-size: 35px;
-}
-
-.istesal{   
-    font-size: 20px;
-    padding-top: 11px;
-}
-
-.istesal a{
-    text-decoration: none;
-    color: black;
-}
-
-.istesal a:hover{
-    text-decoration: underline;
-    color: palevioletred;
+.insta-logo{
+    width: 100%;
+    padding-top: 17px;
 }
 
 .email{
-    width: 50%;
     text-align: center;
 }
 
-.email-text-wrapper{
-    font-size: 35px;
-}
-
-.isteemail{
-    font-size: 17px;
+.email-logo{
+    width: 30%;
     padding-top: 14px;
 }
-
-.isteemail a{
-    text-decoration: none;
-    color: black;
-}
-
-.isteemail a:hover{
-    text-decoration: underline;
-    color: palevioletred;
-}
-
 
 
 @media (max-width:767px) {
@@ -782,11 +750,6 @@ p{
     width: 100%;
 }
 
-.Address{
-    display: none;
-    font-size: 25px;
-}
-
 .sal-address{
     font-size: 15px;
     padding-top: 10px;
@@ -802,30 +765,33 @@ p{
     color: palevioletred;
 }
 
-.wrapper{
-    padding-top: 20px;
-    width: 100%;
+.insta-email{
+    width:100% ;
     display: flex;
+    text-align: center;
 }
 
 .insta{
-    width: 40%;
-    text-align: center;
+    text-align: none;
     padding-left: 0;
 }
 
-.instagram{
-    font-size: 30px;
+.insta-logo{
+    width: 20%;
+    padding-top: 17px;
+    padding-left: 120px;
 }
 
 .email{
-    width: 60%;
-    font-size: 30px;
+    text-align: none;
 }
 
-.email-text-wrapper{
-    font-size: 30px;
+.email-logo{
+    width: 12%;
+    padding-top: 15px;
+    padding-right: 45px;
 }
+
 
 
 
