@@ -1,34 +1,45 @@
 body{
-    margin: 0%;
+    margin: 0;
+}
+
+h3{
+    font-size: 45px;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
 }
 
 /*section navigation*/
 
 .navigation{
     background-color: #6db7d4;
-    margin: 0%;
+    margin: 0;
     width: 100%;
-    top: 0%;
+    top: 0;
     position: fixed;
 }
 
 .container{
-    max-width: 1170px;
-    width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 15px;
 }
 
 .navigation .nav{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navigation .nav .navigation-logo .nav-logo{
-    padding-top: 2%;
+    padding-top: 5px;
     width: 30%;
     height: auto;
 }
@@ -44,6 +55,7 @@ body{
 }
 
 .navigation .nav .navigation-text ul li a:hover{
+    text-decoration: underline;
     color: palevioletred;
 }
 
@@ -51,26 +63,29 @@ body{
 
 #iste{
     width: 100%;
+    border-bottom: 1px solid black;
 }
 
 .iste-wrapper{
-    padding-top: 5%;
+    padding-top: 250px;
+    padding-bottom: 170px;
 }
 
-.iste-sal{
+.iste-wrapper .iste-wrapper-1 .iste-sal{
     text-align: center;
-    font-size: 650%;
-    margin-top: 15%;
-    margin-bottom: 1%;
+    border-bottom: 1px solid black;
 }
 
-.iste-line{
+.iste-wrapper .iste-wrapper-1 .iste-sal .iste-sal-wrapper{
+    font-size: 60px;
+}
+
+.iste-wrapper .iste-wrapper-1 .iste-line{
     text-align: center;
-    font-size: 250%;
-    margin-top: 0%;
-    margin-bottom: 16%;
-    padding-top: 1%;
-    
+}
+
+.iste-wrapper .iste-wrapper-1 .iste-line .iste-line-wrapper{
+    font-size: 40px;
 }
 
 
@@ -78,89 +93,103 @@ body{
 
 #about{
     width: 100%;
+    border-bottom: 1px solid black;
 }
 
-.about-wrapper-1{
+.about-wrapper .about-wrapper-2{
+    padding: 70px 0;
+}
+
+.about-wrapper .about-wrapper-2 .about-main-text{
+    padding-bottom: 40px;
+}
+
+.about-wrapper .about-wrapper-2 .about-wrapper-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 6%;
 }
 
-.about-logo{
-    padding-right: 5%;
-    max-width: 40%;
+.about-wrapper .about-wrapper-2 .about-wrapper-1 .about-logo{
+    width: 30%;
 }
 
-.about-logo-wrapper{
-    width: 150%;
+.about-wrapper .about-wrapper-2 .about-wrapper-1 .about-logo .about-logo-wrapper.about-logo-wrapper-1{
+    width: 100%;
 }
 
-.about-intro{
-    width: 60%;
+.about-wrapper .about-wrapper-2 .about-wrapper-1 .about-intro{
+    width: 70%;
+    padding-left: 50px;
 }
 
-.about-main-text{
-    padding-top: 10%;
-    text-align: center;
-    font-size: 400%;
-}
-
-.about-text{
+.about-wrapper .about-wrapper-2 .about-wrapper-1 .about-intro .about-text{
     display: inline-block;
     text-align: justify;
-    font-size: 200%;
+    font-size: 30px;
 }
 
 /*section intro*/
 
-.intro-wrapper{
-    padding-top: 5%;
-    padding-bottom: 4%;
+#intro{
+    width: 100%;
+    border-bottom: 1px solid black;
 }
 
-.intro .intro-wrapper .intro-main .intro-main-text{
-    text-align: center;
-    font-size: 400%;
-    margin-bottom: 5%;
+.intro-wrapper-2{
+    padding: 70px 0;
 }
 
-.intro .intro-wrapper-1{
+.intro-wrapper .intro-wrapper-2 .intro-main {
+    padding-bottom: 40px;
+}
+
+.intro-wrapper .intro-wrapper-2 .intro-wrapper-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12%;
 }
 
-.intro .intro-wrapper .intro-image{
-    width: 50%;
-    margin-left: 2%;
+.intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-text{
+    width: 58%;
+    padding-right: 60px;
 }
 
-.intro .intro-wrapper .intro-image-wrapper{
-    width: 105%;
-    border-radius: 50%;
-}
-
-.intro .intro-wrapper .intro-text{
-    padding: 2%;
-    margin-right: 2%;
-    width: 50%;
-}
-
-.intro .intro-wrapper .intro-text-wrapper{
+.intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-text .intro-text-wrapper{
     display: inline-block;
     text-align: justify;
-    font-size: 150%;
+    font-size: 25px;
+}
+
+.intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-image{
+    width: 42%;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-image .intro-image-wrapper{
+    width: 500px;
+    border-radius: 50%;
+    height: 500px;
+    object-fit: fill;
 }
 
 
 /*section event*/
 
+#event{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.event-wrapper-1{
+    padding: 70px 0 90px 0;
+}
+
 .event-main-text{
     text-align: center;
-    font-size: 400%;
-    padding-top: 6%;
+    padding-bottom: 60px;
 }
 
 /*div quizo-code*/
@@ -168,228 +197,75 @@ body{
 .quizo-code{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 4%;
+    padding-bottom: 70px;
 }
 
 /*div quizo*/
 
 .quizo{
     border: groove;
-    max-width: 45%;
-}
-
-.quizo-img{
-    max-width: 50%;
+    width: 45%;
 }
 
 .quizo-img-wrapper{
-    width: 200%;
+    width: 540px;
     height: 700px;
 }
 
 .Quiz-O-Fun{
-    font-size: 200%;
+    font-size: 30px;
     text-align: center;
-    margin: 1%;
+    padding-top: 7px;
 }
 
 .quizo-intro{
-    font-size: 100%;
+    font-size: 18px;
     text-align: justify;
-    margin: 2%;
+    padding: 10px;
+    border-bottom: 1px groove;
 }
 
 .quizo-calendar{
     text-align: center;
+    padding: 7px;
 }
 
 /*div code*/
 
 .code{
     border: groove;
-    max-width: 45%;
-}
-
-.code-img{
-    max-width: 50%;
+    width: 45%;
 }
 
 .code-img-wrapper{
-    width: 200%;
+    width: 540px;
     height: 700px;
 }
 
 .code-hunt{
-    font-size: 200%;
+    font-size: 30px;
     text-align: center;
-    margin: 1%;
+    padding-top: 7px;
 }
 
 .code-intro{
-    font-size: 100%;
+    font-size: 18px;
     text-align: justify;
-    margin: 2%;
+    padding: 10px;
+    border-bottom: 1px groove;
 }
 
 .code-calendar{
     text-align: center;
-}
-
-
-/*div graphic-quiz*/
-
-.graphic-quiz{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 4% 0;
-}
-
-/*div graphic*/
-
-.graphic{
-    border: groove;
-    max-width: 45%;
-}
-
-.graphic-img{
-    max-width: 50%;
-}
-
-.graphic-img-wrapper{
-    width: 200%;
-    height: 700px;
-}
-
-.Graphical-poster-making-compitition{
-    font-size: 200%;
-    text-align: center;
-    margin: 1%;
-}
-
-.graphic-intro{
-    font-size: 100%;
-    text-align: justify;
-    margin: 2%;
-}
-
-.graphic-calendar{
-    text-align: center;
-}
-
-/*div quiz*/
-
-.quiz{
-    border: groove;
-    max-width: 45%;
-}
-
-.quiz-img{
-    max-width: 50%;
-}
-
-.quiz-img-wrapper{
-    width: 200%;
-    height: 700px;
-}
-
-.quiz-box{
-    font-size: 200%;
-    text-align: center;
-    margin: 1%;
-}
-
-.quiz-intro{
-    font-size: 100%;
-    text-align: justify;
-    margin: 2%;
-}
-
-.quiz-calendar{
-    text-align: center;
-}
-
-/*div vande-flag*/
-
-.vande-flag{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 4% 0;
-}
-
-/*div vande*/
-
-.vande{
-    border: groove;
-    max-width: 45%;
-}
-
-.vande-img{
-    max-width: 50%;
-}
-
-.vande-img-wrapper{
-    width: 200%;
-    height: 700px;
-}
-
-.vande-bharatam{
-    font-size: 200%;
-    text-align: center;
-    margin: 1%;
-}
-
-.vande-intro{
-    font-size: 100%;
-    text-align: justify;
-    margin: 2%;
-}
-
-.vande-calendar{
-    text-align: center;
-}
-
-/*div flag*/
-
-.flag{
-    border: groove;
-    max-width: 45%;
-}
-
-.flag-img{
-    max-width: 50%;
-}
-
-.flag-img-wrapper{
-    width: 200%;
-    height: 700px;
-}
-
-.tiranga-yatra{
-    font-size: 200%;
-    text-align: center;
-    margin: 1%;
-}
-
-.flag-intro{
-    font-size: 100%;
-    text-align: justify;
-    margin: 2%;
-}
-
-.flag-calendar{
-    text-align: center;
+    padding: 7px;
 }
 
 
 /*div poster-work*/
 
 .poster-work{
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 4% 0 13% 0;
 }
 
 /*div poster*/
@@ -399,29 +275,27 @@ body{
     max-width: 45%;
 }
 
-.poster-img{
-    max-width: 50%;
-}
-
 .poster-img-wrapper{
-    width: 200%;
+    width: 540px;
     height: 700px;
 }
 
 .poster-making{
-    font-size: 200%;
+    font-size: 30px;
     text-align: center;
-    margin: 1%;
+    padding-top: 7px;
 }
 
 .poster-intro{
-    font-size: 100%;
+    font-size: 18px;
     text-align: justify;
-    margin: 2%;
+    padding: 10px;
+    border-bottom: 1px groove;
 }
 
 .poster-calendar{
     text-align: center;
+    padding: 7px;
 }
 
 /*div work*/
@@ -431,47 +305,45 @@ body{
     max-width: 45%;
 }
 
-.work-img{
-    max-width: 50%;
-}
-
 .work-img-wrapper{
-    width: 200%;
+    width: 540px;
     height: 700px;
 }
 
 .workshops{
-    font-size: 200%;
+    font-size: 30px;
     text-align: center;
-    margin: 1%;
+    border-bottom: 1px groove;
+    padding: 5px 0;
 }
 
-.work-intro{
-    font-size: 100%;
-    text-align: justify;
-    margin: 2%;
-}
-
-.flag-calendar{
-    text-align: center;
+.work-footer ul li{
+    font-size: 18px;
 }
 
 
 /*section team*/
 
+#team{
+    width: 100%;
+}
+
+.team-wrapper-1{
+    padding: 70px 0;
+}
+
 .team-text{
     text-align: center;
-    font-size: 400%;
-    padding-top: 6%;
+    padding-bottom: 70px;
 }
 
 /*sunny-modi*/
 
 .sunny-modi{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 35px 0;
+    padding-bottom: 60px;
 }
 
 .sunny{
@@ -479,8 +351,8 @@ body{
     width: 50%;
 }
 
-.sunny-img{
-    max-width: 75%;
+.sunny-img-1{
+    width: 75%;
 }
 
 .modi{
@@ -488,75 +360,19 @@ body{
     width: 50%;
 }
 
-.modi-img{
-    max-width: 75%;
-}
-
-/*vrajesh-devanshi*/
-
-.vrajesh-devanshi{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 0;
-}
-
-.vrajesh{
-    text-align: center;
-    width: 50%;
-}
-
-.vrajesh-img{
-    max-width: 75%;
-}
-
-.devanshi{
-    text-align: center;
-    width: 50%;
-}
-
-.devanshi-img{
-    max-width: 75%;
-}
-
-
-/*vatsal-chauhan*/
-
-.vatsal-chauhan{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 0;
-}
-
-.vatsal{
-    text-align: center;
-    width: 50%;
-}
-
-.vatsal-img{
-    max-width: 75%;
-}
-
-.chauhan{
-    text-align: center;
-    width: 50%;
-}
-
-.chauhan-img{
-    max-width: 75%;
+.modi-img-1{
+    width: 75%;
 }
 
 /*parshwa*/
 
 .parshwa{
-    padding: 35px 0 80px 0;
     text-align: center;
-    max-width: 100%;
+    width: 100%;
 }
 
-.parshwa-img{
-    max-width: 37.5%;
+.parshwa-img-1{
+    width: 37.5%;
 }
 
 
@@ -564,6 +380,8 @@ body{
 
 #contact{
     background-color: #6db7d4;
+    bottom: 0;
+    text-align: center;
 }
 
 .contact-wrapper{
@@ -571,39 +389,448 @@ body{
 }
 
 .contact-logo{
-    width: 33%;
-    text-align: center;
-    padding-top: 30px;
+    width: 25%;
+    padding-top: 3px;
 }
 
-.contact-logo-wrapper{
-    width: 20%;
+.contact-logo-wrapper-1{
+    width: 30%;
+}
+
+.address{
+    width: 25%;
+    text-align: center;
+}
+
+.Address{
+    font-size: 35px;
+}
+
+.sal-address{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.sal-address a{
+    text-decoration: none;
+    color: black;
+}
+
+.sal-address a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+.wrapper{
+    width: 60%;
+    display: flex;
 }
 
 .insta{
-    width: 33%;
+    width: 50%;
     text-align: center;
+    padding-left: 20px;
 }
 
 .instagram{
-    margin: 20px 0;
-    font-size: 40px;
+    font-size: 35px;
 }
 
-.istesal{
+.istesal{   
     font-size: 20px;
+    padding-top: 11px;
+}
+
+.istesal a{
+    text-decoration: none;
+    color: black;
+}
+
+.istesal a:hover{
+    text-decoration: underline;
+    color: palevioletred;
 }
 
 .email{
-    width: 33%;
+    width: 50%;
     text-align: center;
 }
 
 .email-text-wrapper{
-    margin: 20px 0;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .isteemail{
-    font-size: 20px;
+    font-size: 17px;
+    padding-top: 14px;
+}
+
+.isteemail a{
+    text-decoration: none;
+    color: black;
+}
+
+.isteemail a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+
+
+@media (max-width:767px) {
+
+    h3{
+        font-size: 35px;
+    }
+
+    .navigation{
+        background-color: #6db7d4;
+        margin: 0;
+        width: 100%;
+        top: 0;
+        position: fixed;
+    }
+
+    .navigation-logo{
+        width: 20%;
+    }
+    
+    .navigation .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navigation-text{
+        width: 80%;
+    }
+    .navigation .nav .navigation-logo .nav-logo{
+        padding-top: 5px;
+        width: 30%;
+        height: auto;
+    }
+    
+    .navigation .nav .navigation-text ul{
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+    .navigation .nav .navigation-text ul li{
+        display: inline;
+        padding: 0 10px 0 0;
+        font-size: 14px;
+    }
+    
+    .navigation .nav .navigation-text ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .navigation .nav .navigation-text ul li a:hover{
+        text-decoration: underline;
+        color: palevioletred;
+    }
+    
+    .iste-wrapper {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    
+    .iste-wrapper .iste-wrapper-1 .iste-sal .iste-sal-wrapper{
+        font-size: 40px;
+    }
+
+    .iste-wrapper .iste-wrapper-1 .iste-line .iste-line-wrapper{
+        font-size: 20px;
+    }
+
+    .about-wrapper .about-wrapper-2{
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    
+    .about-wrapper .about-wrapper-2 .about-main-text{
+        padding-bottom: 20px;
+    }
+    
+    .about-wrapper .about-wrapper-2 .about-wrapper-1{
+        display: block;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-wrapper-2 .about-wrapper-1 .about-logo{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .about-wrapper .about-wrapper-2 .about-wrapper-1 .about-logo .about-logo-wrapper.about-logo-wrapper-1{
+        width: 100%;
+    }
+    
+    .about-wrapper .about-wrapper-2 .about-wrapper-1 .about-intro{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #about .about-wrapper .about-wrapper-2 .about-wrapper-1 .about-intro .about-text{
+        display: inline-block;
+        text-align: justify;
+        font-size: 25px;
+    }
+    
+    .intro-wrapper-2{
+        padding: 50px 0;
+    }
+    
+    .intro-wrapper .intro-wrapper-2 .intro-main {
+        padding-bottom: 40px;
+    }
+    
+    .intro-wrapper .intro-wrapper-2 .intro-wrapper-1{
+        display: flex;
+        flex-direction: column-reverse;     
+    }
+    
+    .intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-text{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-text .intro-text-wrapper{
+        font-size: 25px;
+    }
+    
+    .intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-image{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .intro-wrapper .intro-wrapper-2 .intro-wrapper-1 .intro-image .intro-image-wrapper{
+        width: 90%;
+        border-radius: 0;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .event-wrapper{
+        width: 100%;
+    }
+    
+    .event-wrapper-1{
+        width: 100%;
+        padding: 60px 0 90px 0;
+    }
+    
+    .event-main-text{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    /*div quizo-code*/
+    
+    .quizo-code{
+        width: 100%;
+        display: block;
+        padding-bottom: 0;
+    }
+    
+    /*div quizo*/
+    
+    .quizo{
+        width: 99%;
+        margin-bottom: 70px;
+    }
+
+    .quizo-img{
+        width: 100%;
+    }
+    
+    .quizo-img-wrapper{
+        width: 100%;
+        height: auto;
+    }
+    
+    .quizo-intro{
+        font-size: 22px;
+    }
+    
+    /*div code*/
+    
+    .code{
+        width: 99%;
+        margin-bottom: 70px;
+    }
+
+    .code-img{
+        width: 100%;
+    }
+    
+    .code-img-wrapper{
+        width: 100%;
+        height: auto;
+    }
+    
+    .code-intro{
+        font-size: 22px;
+    }
+    
+    
+    /*div poster-work*/
+    
+    .poster-work{
+        width: 100%;
+        display: block;
+    }
+    
+    /*div poster*/
+    
+    .poster{
+        max-width: 100%;
+        margin-bottom: 70px;
+    }
+    
+    .poster-img-wrapper{
+        width: 100%;
+        height: auto;
+    }
+    
+    .poster-intro{
+        font-size: 22px;
+        padding: 10px;
+    }
+    
+    /*div work*/
+    
+    .work{
+        max-width: 100%;
+    }
+    
+    .work-img-wrapper{
+        width: 100%;
+        height: auto;
+    }
+    
+    .workshops{
+        font-size: 30px;
+        padding: 5px 0;
+    }
+    
+    .work-footer ul li{
+        font-size: 22px;
+    }
+    
+    /*section team*/
+
+.team-wrapper-1{
+    padding: 50px 0;
+}
+
+.team-text{
+    padding-bottom: 50px;
+}
+
+/*sunny-modi*/
+
+.sunny-modi{
+    display: block;
+    padding-bottom: 0;
+}
+
+.sunny{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.sunny-img-1{
+    width: 100%;
+}
+
+.modi{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.modi-img-1{
+    width: 100%;
+}
+
+/*parshwa*/
+
+.parshwa-img-1{
+    width: 100%;
+}
+
+/*section-contact*/
+
+.contact-wrapper{
+    display: block;
+}
+
+.contact-logo{
+    display: none;
+    width: 0;
+    padding-top: 0;
+}
+
+.contact-logo-wrapper-1{
+    width: 0;
+}
+
+.address{
+    width: 100%;
+}
+
+.Address{
+    display: none;
+    font-size: 25px;
+}
+
+.sal-address{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.sal-address a{
+    text-decoration: none;
+    color: black;
+}
+
+.sal-address a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+.wrapper{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.insta{
+    width: 40%;
+    text-align: center;
+    padding-left: 0;
+}
+
+.instagram{
+    font-size: 30px;
+}
+
+.email{
+    width: 60%;
+    font-size: 30px;
+}
+
+.email-text-wrapper{
+    font-size: 30px;
+}
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+
+}
+@media (min-width:1025px) {
 }
